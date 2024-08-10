@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;300;400;700&family=Lato:wght@300;400&family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,600;1,300&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;300;400;700&family=Lato:wght@300;400&family=Nanum+Gothic&family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,600;1,300&display=swap");
+
 /* font-family: 'Hepta Slab';, serif; ExtraLight 200, Light 300, Regular 400, Bold 700
 font-family: 'Lato', sans-serif; light 300, Regular 400
 font-family: 'Spline Sans Mono;', monospace;Light 300, Light 300 Italic, Regular 400, Semibold 600 */
@@ -24,8 +26,11 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  font-family: "Hepta Slab", serif, cursive, "Times New Roman", Times, serif,
-    Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Nanum Gothic", sans-serif, serif, cursive, "Times New Roman",
+    Times, serif, Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: "Hepta Slab", serif, cursive, "Times New Roman", Times, serif,
+    Verdana, Geneva, Tahoma, sans-serif; */
+  background-color: #262626;
 }
 
 .Container {
@@ -39,12 +44,25 @@ body {
   --third-color: white;
   --links-color: blue;
 } */
+/* :root {
+  --primary-color: #3c352f;
+  --secondary-color: #9a8b78;
+  --third-color: white;
+  --links-color: blue;
+} */
 :root {
+  --primary-color: #9a8b78;
+  --secondary-color: #3c352f;
+  --third-color: white;
+  --links-color: blue;
+}
+/* :root {
   --primary-color: #96fce5;
   --secondary-color: #00574d;
   --third-color: white;
   --links-color: blue;
-}
+} */
+
 /* :root {
   --primary-color: #a0e087;
   --secondary-color: #0e3303;
@@ -79,9 +97,10 @@ body {
 /* Header Section */
 
 .logo img {
-  height: 100%;
+  height: 120px;
   position: relative;
-  right: 15%;
+  /* right: 15%; */
+  margin: 0 50px;
 }
 /* .adminSection {
   position: relative;
@@ -93,7 +112,8 @@ body {
 header {
   width: 100%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: space-between;
   position: relative;
   height: 100px;
   z-index: 7;
@@ -340,6 +360,7 @@ ul.products {
 
   .DesktopNavLinks {
     position: relative;
+    margin: 0 50px;
   }
 
   ul li {
