@@ -1,0 +1,36 @@
+.projectsWelcomePage {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.projectsPic1 img {
+  width: 400px;
+  height: 400px;
+}
+
+.projectsPic2 img {
+  width: 450px;
+  height: 300px;
+}
+
+.projectsPic3 img {
+  width: 500px;
+  height: 300px;
+}
+
+.projectsWelcomeHeading h1 {
+  padding-top: 11rem;
+  text-align: center;
+  color: var(--third-color);
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin-top: 0rem;
+  }
+}

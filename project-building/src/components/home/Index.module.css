@@ -1,0 +1,31 @@
+.homeWelcomePage img {
+  height: 100vh;
+  width: 100%;
+  /* padding-top: 149px; */
+}
+
+.homeWelcomePageHeading {
+  position: relative;
+  top: 47rem;
+  font-size: 34px;
+  text-align: center;
+  color: var(--third-color);
+  background-color: var(--secondary-color);
+  opacity: 0.5;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1224px) {
+  .homeWelcomePage img {
+    height: 51vh;
+    width: 100%;
+  }
+
+  .homeWelcomePageHeading {
+    font-size: 18px;
+    width: 300px;
+    position: relative;
+    top: 25rem;
+  }
+}

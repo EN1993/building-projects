@@ -5,10 +5,10 @@
 /* font-family: 'Hepta Slab';, serif; ExtraLight 200, Light 300, Regular 400, Bold 700
 font-family: 'Lato', sans-serif; light 300, Regular 400
 font-family: 'Spline Sans Mono;', monospace;Light 300, Light 300 Italic, Regular 400, Semibold 600 */
-h1 {
+/* h1 {
   margin-top: -5em;
   text-align: center;
-}
+} */
 
 html,
 body {
@@ -175,177 +175,9 @@ li a:hover {
   display: none;
 }
 
-/* ul.posts a,
-ul.products a {
-  font-weight: bold;
-  font-size: 19px;
-  color: var(--links-color);
-}
-
-ul.posts,
-ul.products {
-  list-style: none;
-  display: grid;
-  background-color: white;
-  margin-bottom: 5px;
-  position: unset;
-}
-
-.success {
-  padding: 1rem;
-  margin: 10px 0;
-  background: rgb(5, 111, 5);
-  color: white;
-  border: none;
-  width: 229px;
-  margin: 0 auto;
-}
-
-.slider-wrapper {
-  max-width: 1000px;
-  max-height: 500px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-[data-element="galleryShow"] .show {
-  display: none;
-}
-
-[data-element="galleryShow"] .show.activate {
-  display: block;
-}
-
-.slideImage {
-  height: 100%;
-  width: 100%;
-}
-
-.show h3 {
-  position: absolute;
-  font-size: 25px;
-  color: white;
-  margin: 14px;
-  padding: 18px;
-  background: #000000a1;
-}
-
-.loader {
-  margin: 0 auto;
-  border: 15px solid var(--primary-color);
-  width: 65px;
-  height: 65px;
-  border-top: 15px solid var(--secondary-color);
-  border-radius: 50%;
-  animation: spin 2s linear infinite;
-  position: relative;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.editCtas {
-  display: inline-grid;
-}
-
-.updateCTA,
-.addCTA,
-.loginCta {
-  font-family: "Hepta Slab";
-  color: var(--secondary-color);
-  background: var(--primary-color);
-  font-size: 21px;
-  border: none;
-  font-weight: bold;
-  padding: 3px 10px;
-  margin: 10px 0px;
-  text-decoration: none;
-}
-
-.updateCTA:hover,
-.addCTA:hover,
-.loginCta:hover {
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  cursor: pointer;
-}
-
-.deleteCTA {
-  font-family: "Hepta Slab";
-  color: white;
-  background: rgb(186, 9, 9);
-  font-size: 21px;
-  border: none;
-  font-weight: bold;
-  padding: 3px 10px;
-  margin: 10px 0px;
-  text-decoration: none;
-}
-
-.deleteCTA:hover {
-  background: white;
-  color: rgb(186, 9, 9);
-  cursor: pointer;
-  border: 2px solid rgb(186, 9, 9);
-}
-
-.addContent,
-.editContent,
-.login {
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-.editContent {
-  position: relative;
-}
-
-.addProductForm,
-.editProductForm,
-.addPostForm,
-.editPostForm,
-.postListContent,
-.productListContent {
-  display: flex;
-}
-
-.addContent label,
-.editContent label,
-.login label {
-  display: block;
-  margin: 6px 0px;
-}
-
-.addContent textarea,
-.editContent textarea {
-  height: 91px;
-  width: 255px;
-  font-weight: bold;
-  font-family: "Spline Sans Mono";
-  border: 2px solid var(--secondary-color);
-}
-.addContent input,
-.editContent input,
-.login input {
-  height: 30px;
-  width: 255px;
-  font-weight: bold;
-  font-family: "Spline Sans Mono";
-  border: 2px solid var(--secondary-color);
-} */
-
 @media only screen and (min-width: 1024px) {
   main {
     margin-top: 0em;
-  }
-  h1 {
-    margin-top: 7em;
   }
 
   /* Header Section */
