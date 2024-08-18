@@ -1,0 +1,86 @@
+.contactWelcomePage {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 12rem;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.contactUsInfo,
+.contactMessage,
+.contactNav {
+  width: 400px;
+  height: 450px;
+}
+
+.contactMessage {
+  border: 2px solid lightgreen;
+}
+.contactUsInfo {
+  border: 2px solid lightsalmon;
+}
+
+.contactNav {
+  border: 2px solid lightblue;
+}
+.footerContenIcons,
+.footerContenIconsGM,
+.footerContenIconsPC,
+.footerContenIcons {
+  font-size: 40px;
+  color: var(--primary-color);
+}
+.contactMessage input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.name {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+.contactMessageFn,
+.contactMessageEn {
+  width: 70px;
+  display: block;
+}
+.contactMessageEp input {
+  width: 377px;
+}
+
+.contactMessageMe textarea {
+  display: block;
+  width: 393px;
+  height: 100px;
+}
+
+.contactMessageCta button {
+  width: 397px;
+  height: 41px;
+  margin: 15px auto;
+  background-color: #262626;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.contactMessageCta button:hover {
+  color: #262626;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.contactMessageEp input,
+.contactMessageFn input,
+.contactMessageEn input,
+.contactMessageMe textarea {
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  background-color: #262626;
+  color: var(--primary-color);
+  font-size: 16px;
+}
