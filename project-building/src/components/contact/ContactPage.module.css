@@ -3,7 +3,7 @@
   height: 450px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 25px;
   margin-top: 12rem;
   font-size: 20px;
@@ -17,7 +17,7 @@
   height: 450px;
 }
 
-.contactMessage {
+/* .contactMessage {
   border: 2px solid lightgreen;
 }
 .contactUsInfo {
@@ -26,7 +26,7 @@
 
 .contactNav {
   border: 2px solid lightblue;
-}
+} */
 .footerContenIcons,
 .footerContenIconsGM,
 .footerContenIconsPC,
